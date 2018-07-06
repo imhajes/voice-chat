@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" xmlns:jfx="http://javafx.com" codebase="http://s.63oon.com/java/"> 
+    <information>
+        <title>http://s.63on.com</title>
+        <vendor>http://s.63on.com</vendor>
+        <homepage href="https://www.63on.com"/>
+        <description>&#1607;&#1600;&#1604;&#1570; &#1608;&#1587;&#1600;&#1607;&#1600;&#1604;&#1570; &#1576;&#1600;&#1603;&#1600;&#1605; &#1601;&#1600;&#1610; &#1585;&#1608;&#1605; &#1576;&#1600;&#1606;&#1600;&#1570;&#1578; &#1580;&#1600;&#1583;&#1607;&#1607; </description>
+	    <icon href="webconf-icon.gif"/>
+    </information>
+    <application-desc>
+	<argument>rm=1</argument>
+	<argument>server=s.63oon.com</argument>
+	<argument>room=79cf8e9d</argument>
+	<argument>pass=</argument>
+	<argument>logo=https://d.top4top.net/p_867628d31.gif</argument>
+	<argument>icon=https://a.top4top.net/p_668lurjy1.png</argument>
+	<argument>title=&#1607;&#1600;&#1604;&#1570; &#1608;&#1587;&#1600;&#1607;&#1600;&#1604;&#1570; &#1576;&#1600;&#1603;&#1600;&#1605; &#1601;&#1600;&#1610; &#1585;&#1608;&#1605; &#1576;&#1600;&#1606;&#1600;&#1570;&#1578; &#1580;&#1600;&#1583;&#1607;&#1607; </argument>
+	<argument>prompt=&#1605;&#1600;&#1600;&#1606;&#1600;&#1600;&#1608;&#1585; &#1585;&#1608;&#1605;&#1600;&#1600;&#1603;&#1600;</argument>
+	<argument>color1=ffcc99</argument>
+	<argument>color2=993333</argument>
+	<argument>layout=top</argument>
+	<argument>wbsize=0</argument>
+	<argument>tcsize=71</argument>
+
+    </application-desc>
+    <security><all-permissions/></security> 
+	<update check="always" policy="always" />
+
+   <resources os="Windows" arch="x86">
+        <j2se version="1.6+"/>
+        <jfx:javafx-runtime version="2.1+" />
+        <jar href="webconf.jar" />
+        <jar href="webrenderer.jar" />
+        <nativelib href="webconf-win.jar" />
+        <jar href="webrenderer-win.jar" />
+    </resources>
+    <resources os="Windows" arch="amd64">
+        <j2se version="1.6+"/>
+        <jfx:javafx-runtime version="2.2+" />
+        <jar href="webconf.jar" />
+        <jar href="webrenderer.jar" />
+        <nativelib href="webconf-win64.jar" />
+    </resources>
+
+
+</jnlp>
