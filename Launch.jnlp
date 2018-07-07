@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" xmlns:jfx="http://javafx.com" codebase="http://localhost/java/"> 
+    <information>
+        <title>http://localhost</title>
+        <vendor>&amp;#1583;&amp;#1585;&amp;#1583;&amp;#1588;&amp;#1577; &amp;#1591;&amp;#1593;&amp;#1608;&amp;#1606;</vendor>
+        <homepage href="https://localhost"/>
+        <description>&#1575;&#1604;&#1585;&#1608;&#1605; &#1576;&#1585;&#1593;&#1575;&#1610;&#1577; &#1575;&#1604;&#1580;&#1605;&#1610;&#1593; &#1575;&#1581;&#1578;&#1585;&#1605; &#1578;&#1581;&#1578;&#1585;&#1605;</description>
+	    <icon href="webconf-icon.gif"/>
+    </information>
+    <application-desc>
+	<argument>rm=1</argument>
+	<argument>server=localhost</argument>
+	<argument>room=5cf04e2b</argument>
+	<argument>pass=</argument>
+	<argument>logo=https://localhost/p_770t9ea61.gif</argument>
+	<argument>icon=http://localhost/uploads/87b54d6f74e03.jpg</argument>
+	<argument>title=&#1575;&#1604;&#1585;&#1608;&#1605; &#1576;&#1585;&#1593;&#1575;&#1610;&#1577; &#1575;&#1604;&#1580;&#1605;&#1610;&#1593; &#1575;&#1581;&#1578;&#1585;&#1605; &#1578;&#1581;&#1578;&#1585;&#1605;</argument>
+	<argument>prompt=Login</argument>
+	<argument>color1=ff9900</argument>
+	<argument>color2=000000</argument>
+	<argument>layout=top</argument>
+	<argument>wbsize=0</argument>
+	<argument>tcsize=60</argument>
+
+    </application-desc>
+    <security><all-permissions/></security> 
+	<update check="always" policy="always" />
+
+   <resources os="Windows" arch="x86">
+        <j2se version="1.6+"/>
+        <jfx:javafx-runtime version="2.1+" />
+        <jar href="webconf.jar" />
+        <jar href="webrenderer.jar" />
+        <nativelib href="webconf-win.jar" />
+        <jar href="webrenderer-win.jar" />
+    </resources>
+    <resources os="Windows" arch="amd64">
+        <j2se version="1.6+"/>
+        <jfx:javafx-runtime version="2.2+" />
+        <jar href="webconf.jar" />
+        <jar href="webrenderer.jar" />
+        <nativelib href="webconf-win64.jar" />
+    </resources>
+
+
+</jnlp>
